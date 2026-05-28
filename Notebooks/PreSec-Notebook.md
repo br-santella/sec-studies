@@ -39,3 +39,16 @@ A MAC address is a **physical, permanent identifier** burned into a device's Net
               |-----------| |-----------|
                 Vendor ID     Unique Device ID
                (Manufacturer)   (Serial No.)
+```
+
+---
+
+### 🏓 Ping & ICMP
+**Ping** is a command-line tool used to test whether a remote device is reachable and to measure the connection's performance.
+
+* **How it works:** It relies on a protocol called **ICMP** (Internet Control Message Protocol).
+* **The Process:** 1. Your device sends an `ICMP Echo Request` packet to the target.
+  2. If online, the target replies with an `ICMP Echo Reply`.
+* **Metric:** It measures the **Round Trip Time (RTT)**—the time it takes for the packet to go and come back, usually measured in milliseconds (ms).
+
+> 💡 **Analogy:** Ping is like yelling "Hello?" across a canyon. If you hear your echo back, you know someone is there, and how long the echo takes tells you how deep the canyon is.
